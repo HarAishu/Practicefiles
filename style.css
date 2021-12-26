@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    height: 100vh;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+.box{
+    height: 550px;
+    width: 40%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: relative;
+
+   
+}
+img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    
+}
+h2{
+    text-align: center;
+    margin: 0 auto;
+}
+.inp1{
+    background-color: rgb(173, 173, 173);
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    outline: none;
+    border: 0;
+    width: 60%;
+    
+}
+
+
+
+button{
+   background-color: rgb(49, 141, 184);
+    color: black;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 15px 15px ;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    width: 68%;
+}
+.flex{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 68%;   
+    font-size: small;
+    margin-top: 3px;
+}
+.input{
+   display: flex;
+   align-items: flex-start;
+
+}
+.forgot{
+    right: 0;
+}
+.last{
+  bottom: 0;
+  border-radius: 0 0px 10px 10px;
+   height: 70px;
+   width: 100%;
+    background-color: rgb(169, 123, 230);
+    position: absolute;
+}
+.p1{
+  text-align: center;
+ padding-top: 25px;
+ text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
